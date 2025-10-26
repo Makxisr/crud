@@ -36,6 +36,7 @@ def register():
     MessageBox.showinfo("Status", f"Registered {name} User Successfully!")
     login_window.destroy()
     subprocess.Popen(["python", "C:/Users/Marjorie Geneve/OneDrive/Desktop/Crud/login.py"])
+    subprocess.Popen(["python", "C:C:/Users/darly\OneDrive/Desktop/crud/login.py"])
 
         
 def cancel_button():
@@ -50,6 +51,7 @@ login_window.title("Administrator Sign Up")
 login_window.wm_attributes("-transparentcolor", 'green') 
 
 admin_image = tk.PhotoImage(file="C:/Users/Marjorie Geneve/OneDrive/Desktop/Crud/admin1.png")
+admin_image = tk.PhotoImage(file="C:/Users/darly\OneDrive/Desktop/crud/admin1.png")
 
 head = Label(login_window, image=admin_image, font=("Sarif 15")).pack(padx=5,pady=5)
 
