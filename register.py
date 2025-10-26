@@ -11,6 +11,7 @@ import subprocess
 def login():
     login_window.destroy()
     subprocess.Popen(["python", "C:/Users/Marjorie Geneve/OneDrive/Desktop/Crud/login.py"])
+    subprocess.Popen(["python", "C:/Users/darly\OneDrive/Desktop/crud/login.py"])
 
 def exit_login():
     login_window.destroy()
